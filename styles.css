@@ -1,0 +1,213 @@
+body{
+    background-color: black;
+}
+.grid-container{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 30vw;
+    height: 45vh;
+    background-color: orange;
+    margin: auto;
+    margin-top: 10vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: [one] 1fr [two ]1fr [three] 1fr [four] 1fr [five];
+    grid-template-rows: [first] 1fr [second] 1fr [third] 1fr [fourth] 1fr [fifth] 1fr [last] 1fr [final] 1fr [final2];
+    font-family: monospace;
+    width: 25vw;
+    height: 20vh;
+    margin-bottom: 18vh;
+}
+#display{
+    grid-area: textbox;
+    grid-row: first/second;
+    grid-column: one/five;
+    height: 5rem;
+    width: auto;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#one{
+    display: flex;
+    grid-area: one;
+    grid-row: second/third;
+    grid-column: one/two;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#two{
+    display: flex;
+    grid-area: two;
+    grid-row: second/third;
+    grid-column: two/three;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#three{
+    display: flex;
+    grid-area: three;
+    grid-row: second/third;
+    grid-column: three/four;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#four{
+    display: flex;
+    grid-area: four;
+    grid-row: third/fourth;
+    grid-column: one/two;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#five{
+    display: flex;
+    grid-area: five;
+    grid-row: third/fourth;
+    grid-column: two/three;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#six{
+    display: flex;
+    grid-area: six;
+    grid-row: third/fourth;
+    grid-column: three/four;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#seven{
+    display: flex;
+    grid-area: seven;
+    grid-row: fourth/fifth;
+    grid-column: one/two;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#eight{
+    display: flex;
+    grid-area: eight;
+    grid-row: fourth/fifth;
+    grid-column: two/three;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#nine{
+    display: flex;
+    grid-area: nine;
+    grid-row: fourth/fifth;
+    grid-column: three/four;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#zero{
+    display: flex;
+    grid-area: zero;
+    grid-row: fifth/last;
+    grid-column: one/two;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#dot{
+    display: flex;
+    grid-area: dot;
+    grid-row: fifth/last;
+    grid-column: two/three;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#equal{
+    display: flex;
+    grid-area: equal;
+    grid-row: fifth/last;
+    grid-column: three/four;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#plus{
+    display: flex;
+    grid-area: plus;
+    grid-row: second/third;
+    grid-column: four/five;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#minus{
+    display: flex;
+    grid-area: minus;
+    grid-row: third/fourth;
+    grid-column: four/five;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#times{
+    display: flex;
+    grid-area: times;
+    grid-row: fourth/fifth;
+    grid-column: four/five;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#slash{
+    display: flex;
+    grid-area: slash;
+    grid-row: fifth/last;
+    grid-column: four/five;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#clear{
+    display: flex;
+    grid-area: clear;
+    grid-row: last/final;
+    grid-column: one/five;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+}
+#sqrt{
+    display: flex;
+    grid-area: sqrt;
+    grid-column: one/five;
+    grid-row:final/final2;
+    background-color: tan;
+    font-size: 2rem;
+    justify-content: center;
+}
+button:hover{
+    color: white;
+}
