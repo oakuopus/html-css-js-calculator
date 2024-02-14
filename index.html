@@ -8,29 +8,33 @@
 </head>
 <body>
     <div class="grid-container">
+        <input id="display" readonly>
         <div class = "grid ">
-            <input id="display" readonly>
-            <button onclick="textbox('1')" id="one" >1</button>
+            <button onclick="textbox('1')" id="one">1</button>
             <button onclick="textbox('2')" id="two">2</button>
             <button onclick="textbox('3')" id="three">3</button>
+            <button onclick="textbox('+')" id="plus">+</button>
             <button onclick="textbox('4')" id="four">4</button>
             <button onclick="textbox('5')" id="five">5</button>
             <button onclick="textbox('6')" id="six">6</button>
+            <button onclick="textbox('-')" id="minus">-</button>
             <button onclick="textbox('7')"  id="seven">7</button>
             <button onclick="textbox('8')" id="eight">8</button>
             <button onclick="textbox('9')" id="nine">9</button>
-            <button onclick="textbox('+')" id="plus">+</button>
-            <button onclick="textbox('-')" id="minus">-</button>
             <button onclick="textbox('*')" id="times">*</button>
-            <button onclick="textbox('/')" id="slash">/</button>
-            <button onclick="calculate('=')" id="equal">=</button>
-            <button onclick="textbox('0')" id="zero">0</button>
             <button onclick="textbox('.')" id="dot">.</button>
-            <button onclick="clearFunc()" id="clear">clear</button>
-            <button onclick="sqrt('sqrt')" id="sqrt">Square Root</button>
-            <button onclick="sqrt('sin')" id="sin">sin</button>
-            <button onclick="sqrt('cos')" id="cos">cos</button>
-            <button onclick="sqrt('tan')" id="tan">tan</button>
+            <button onclick="textbox('0')" id="zero">0</button>
+            <button onclick="textbox('/')" id="slash">/</button>
+            <button onclick="sqrt('sqrt')" id="sqrt">Sqrt</button>
+            <button onclick="trigonometry('sin')" id="sin">sin</button>
+            <button onclick="trigonometry('cos')" id="cos">cos</button>
+            <button onclick="trigonometry('tan')" id="tan">tan</button>
+            <button onclick="logarith('log')" id="log">log</button>
+            <button onclick="logarith('e')" id="e">e</button>
+            <button onclick="backspace()" id="bs">BS</button>
+            <button onclick="clearFunc()" id="clear">C</button>
+            <button onclick="calculate('=')" id="equal">=</button>
+
         </div>
     </div>
     <script src="calculator.js"></script>
